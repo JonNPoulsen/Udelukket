@@ -1,0 +1,316 @@
+.answer
+{
+	transition: opacity 1s;
+}
+
+.back-btn
+{
+	position: absolute;
+	margin-top: -80px;
+}
+
+.behind-screen{ /*implementeres senere*/
+	position: relative;
+	z-index: -1;
+}
+
+.center
+{
+  margin: 10px auto 10px;
+  display: block;
+}
+
+.center-text
+{
+	text-align: center;
+}
+
+.checkbox-list
+{
+	padding-top: 20px;
+	text-align: left;
+}
+
+.circle
+{
+  border: 5px solid #ffc107;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.circle-text
+{
+  line-height: 86px;
+}
+
+.game-title
+{
+	font-size: 4rem;
+	letter-spacing: 15px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.invisible-option
+{
+	opacity: 0;
+}
+
+.lives
+{
+	color: white;
+	font-size: 32pt;
+	transition: color .5s, font-size .5s;
+}
+
+.loading-screen /*implementeres senere*/
+{
+	background-color: red;
+	height: 100vh;
+}
+
+.losing-lives
+{
+	color: red;
+	font-size: 40pt;
+	transition: color .5s, font-size .5s;
+}
+
+.main-menu
+{
+	/*animation: fadeInLate 3s ease-out;*/
+}
+
+.main-menu-to-rules-btn
+{
+	transform: translateX(15px);
+}
+
+.menu-btn
+{
+	margin: 5px 0;
+	min-width: 150px;
+	width: 20vw;
+}
+
+.middle-text
+{
+	margin-left: 30vw;
+	margin-right: 30vw;
+}
+
+.music-button
+{
+	cursor: pointer;
+	margin-left: auto;
+  display: block;
+}
+
+.name-field
+{
+	background: transparent;
+	border: 1px solid;
+	border-radius: 10px;
+	color: white;
+	padding-left: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.option-frame
+{
+	transition: transform 0.75s;
+}
+
+.option-frame-1-of-2
+{
+	transform: translate(0, 0);
+}
+.option-frame-2-of-2
+{
+	transform: translate(100%, 0);
+}
+
+.option-frame-1-of-3
+{
+	transform: translate(0, 0);
+}
+.option-frame-2-of-3
+{
+	transform: translate(100%, 0);
+}
+.option-frame-3-of-3
+{
+	transform: translate(200%, 0);
+}
+
+.option-frame-1-of-4
+{
+	transform: translate(0, 0);
+}
+.option-frame-2-of-4
+{
+	transform: translate(100%, 0);
+}
+.option-frame-3-of-4
+{
+	transform: translate(200%, 0);
+}
+.option-frame-4-of-4
+{
+	transform: translate(300%, 0);
+}
+
+.options-in-motion
+{
+	opacity: 0.5;
+}
+
+.page-bg
+{
+	/*background-color: #383934;*/
+	/*background: linear-gradient(.25turn, #792D0E, 25%, #383934);*/
+	background: linear-gradient(80deg,#908500 0%, #402000 8%, #000 40%,#000 62.5%, #402000 92%, #908500 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pie {
+  --w:100px;
+  --percentage:0;
+  --b:10px;
+  --c:#ffc107;
+  
+  width: var(--w);
+  max-height:100px;
+  aspect-ratio: 1;
+  position: relative;
+  display: inline-grid;
+  place-content: center;
+  margin: 5px;
+}
+
+.pie:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 0;
+  background: conic-gradient(#0000 0, #0000 calc(var(--percentage)*1%), var(--c) calc(var(--percentage)*1%), var(--c) 100%);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+}
+
+.question-frame
+{
+	min-height: 250px;
+	/*margin: 100px 0px 20px 0;*/
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.question-text
+{
+	line-height: 1.6;
+}
+
+.radiobtn-in-disguise input[type="radio"] {
+  opacity: 0;
+  z-index: 100;
+}
+
+.radiobtn-in-disguise input[type="radio"]:checked + label {
+  background: #1C679A;
+  border-color: #1C679A;
+  color: #A2F1FF;
+}
+
+.radiobtn-in-disguise label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 1.6em;
+}
+
+.settings-btn
+{
+	margin: 5px 0;
+	width: 20vw;
+}
+
+.settings-btn-long
+{
+	margin: 5px 0;
+	min-width: 200px;
+	width: 20vw;
+}
+
+.sub-title-frame
+{
+	min-height: 50px;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	animation: fadeInLate 3s ease-out;
+}
+
+.tb-margin
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.title-frame
+{
+	min-height: 100px;
+	/*margin: 100px 0px 20px 0;*/
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.title-letters-first
+{
+	animation: appear 0.5s;
+}
+
+.title-letters-second
+{
+	animation: appear 1s;
+}
+
+.title-letters-third
+{
+	animation: appear 1.5s;
+}
+
+@keyframes appear{
+	0%{
+		opacity: 0;
+	}
+
+	99%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInLate{
+	0%{
+		opacity: 0;
+	}
+
+	66.7%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}

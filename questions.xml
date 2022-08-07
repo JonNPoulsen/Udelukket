@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">question_ID</Data></Cell>
+			<Cell><Data ss:Type="String">question_text</Data></Cell>
+			<Cell><Data ss:Type="String">option_1</Data></Cell>
+			<Cell><Data ss:Type="String">option_2</Data></Cell>
+			<Cell><Data ss:Type="String">option_3</Data></Cell>
+			<Cell><Data ss:Type="String">option_4</Data></Cell>
+			<Cell><Data ss:Type="String">correct_answer</Data></Cell>
+			<Cell><Data ss:Type="String">category</Data></Cell>
+			<Cell><Data ss:Type="String">category_2</Data></Cell>
+			<Cell><Data ss:Type="String">date_added</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">Hvad er hovedstaden i Østrig?</Data></Cell>
+			<Cell><Data ss:Type="String">Wien</Data></Cell>
+			<Cell><Data ss:Type="String">Bern</Data></Cell>
+			<Cell><Data ss:Type="String">Salzburg</Data></Cell>
+			<Cell><Data ss:Type="String">Linz</Data></Cell>
+			<Cell><Data ss:Type="String">Wien</Data></Cell>
+			<Cell><Data ss:Type="String">geografi</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 14:30:39</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">Hvilket dansk band står bag numre som ”Mexico ligger i Spanien” og ”En wannabe Darth Vader”? </Data></Cell>
+			<Cell><Data ss:Type="String">Magtens Korridorer</Data></Cell>
+			<Cell><Data ss:Type="String">The Minds of 99</Data></Cell>
+			<Cell><Data ss:Type="String">Spids Nøgenhat</Data></Cell>
+			<Cell><Data ss:Type="String">Nephew</Data></Cell>
+			<Cell><Data ss:Type="String">Nephew</Data></Cell>
+			<Cell><Data ss:Type="String">kreative værker</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 14:35:21</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">Hvis man bevæger sig op over Sydafrikas grænse ved vestkysten, hvilket land kommer man så til?</Data></Cell>
+			<Cell><Data ss:Type="String">Mozambique</Data></Cell>
+			<Cell><Data ss:Type="String">Namibia</Data></Cell>
+			<Cell><Data ss:Type="String">Botswana</Data></Cell>
+			<Cell><Data ss:Type="String">Tanzania</Data></Cell>
+			<Cell><Data ss:Type="String">Namibia</Data></Cell>
+			<Cell><Data ss:Type="String">geografi</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 14:57:15</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">I mangaserien Dragon Ball benytter hovedpersonen Son Goku en kampteknik, hvor han affyrer en energistråle med hænderne. Hvad kaldes teknikken, som har navn efter en hawaiiansk konge?</Data></Cell>
+			<Cell><Data ss:Type="String">Dodonpa</Data></Cell>
+			<Cell><Data ss:Type="String">Kamehameha</Data></Cell>
+			<Cell><Data ss:Type="String">Rokushiki</Data></Cell>
+			<Cell><Data ss:Type="String">Kagemane No Jutsu</Data></Cell>
+			<Cell><Data ss:Type="String">Kamehameha</Data></Cell>
+			<Cell><Data ss:Type="String">kreative værker</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 14:57:15</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">Hvilken diktators navn mangler i denne titel, som han gav sig selv:
+“His Excellency President for Life, Field Marshal Al Hadji Doctor ______, VC, DSO, MC, CBE, Lord of all the Beasts of the Earth and Fishes of the Sea, and Conqueror of the British Empire in Africa in General and Uganda in Particular”?</Data></Cell>
+			<Cell><Data ss:Type="String">Muammar Gaddafi</Data></Cell>
+			<Cell><Data ss:Type="String">Idi Amin</Data></Cell>
+			<Cell><Data ss:Type="String">Saddam Hussein</Data></Cell>
+			<Cell><Data ss:Type="String">Robert Mugabe</Data></Cell>
+			<Cell><Data ss:Type="String">Idi Amin</Data></Cell>
+			<Cell><Data ss:Type="String">historie</Data></Cell>
+			<Cell><Data ss:Type="String">politik og samfund</Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 15:05:31</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String">Hvad kaldes den længste side i en retvinklet trekant?</Data></Cell>
+			<Cell><Data ss:Type="String">sekant</Data></Cell>
+			<Cell><Data ss:Type="String">grundlinje</Data></Cell>
+			<Cell><Data ss:Type="String">katete</Data></Cell>
+			<Cell><Data ss:Type="String">hypotenuse</Data></Cell>
+			<Cell><Data ss:Type="String">hypotenuse</Data></Cell>
+			<Cell><Data ss:Type="String">matematik, fysik og kemi</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 15:11:51</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String">Hvad hed kong Arthurs slot?</Data></Cell>
+			<Cell><Data ss:Type="String">Excalibur</Data></Cell>
+			<Cell><Data ss:Type="String">Galahad</Data></Cell>
+			<Cell><Data ss:Type="String">Kamelot</Data></Cell>
+			<Cell><Data ss:Type="String">Avalon</Data></Cell>
+			<Cell><Data ss:Type="String">Kamelot</Data></Cell>
+			<Cell><Data ss:Type="String">tro og fantasi</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 15:17:26</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String">Hvilket af disse pattedyr har en giftklo?</Data></Cell>
+			<Cell><Data ss:Type="String">okapi</Data></Cell>
+			<Cell><Data ss:Type="String">jærv</Data></Cell>
+			<Cell><Data ss:Type="String">næbdyr</Data></Cell>
+			<Cell><Data ss:Type="String">vombat</Data></Cell>
+			<Cell><Data ss:Type="String">næbdyr</Data></Cell>
+			<Cell><Data ss:Type="String">levende væsener</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">2022-07-20 15:34:30</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

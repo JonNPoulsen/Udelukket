@@ -1,0 +1,98 @@
+[
+	{
+		"question_ID" : 1,
+		"question_text" : "Hvad er hovedstaden i Østrig?",
+		"option_1" : "Wien",
+		"option_2" : "Bern",
+		"option_3" : "Salzburg",
+		"option_4" : "Linz",
+		"correct_answer" : "Wien",
+		"category" : "geografi",
+		"category_2" : "",
+		"date_added" : "2022-07-20 14:30:39"
+	},
+	{
+		"question_ID" : 2,
+		"question_text" : "Hvilket dansk band står bag numre som ”Mexico ligger i Spanien” og ”En wannabe Darth Vader”? ",
+		"option_1" : "Magtens Korridorer",
+		"option_2" : "The Minds of 99",
+		"option_3" : "Spids Nøgenhat",
+		"option_4" : "Nephew",
+		"correct_answer" : "Nephew",
+		"category" : "kreative værker",
+		"category_2" : "",
+		"date_added" : "2022-07-20 14:35:21"
+	},
+	{
+		"question_ID" : 3,
+		"question_text" : "Hvis man bevæger sig op over Sydafrikas grænse ved vestkysten, hvilket land kommer man så til?",
+		"option_1" : "Mozambique",
+		"option_2" : "Namibia",
+		"option_3" : "Botswana",
+		"option_4" : "Tanzania",
+		"correct_answer" : "Namibia",
+		"category" : "geografi",
+		"category_2" : "",
+		"date_added" : "2022-07-20 14:57:15"
+	},
+	{
+		"question_ID" : 4,
+		"question_text" : "I mangaserien Dragon Ball benytter hovedpersonen Son Goku en kampteknik, hvor han affyrer en energistråle med hænderne. Hvad kaldes teknikken, som har navn efter en hawaiiansk konge?",
+		"option_1" : "Dodonpa",
+		"option_2" : "Kamehameha",
+		"option_3" : "Rokushiki",
+		"option_4" : "Kagemane No Jutsu",
+		"correct_answer" : "Kamehameha",
+		"category" : "kreative værker",
+		"category_2" : "",
+		"date_added" : "2022-07-20 14:57:15"
+	},
+	{
+		"question_ID" : 5,
+		"question_text" : "Hvilken diktators navn mangler i denne titel, som han gav sig selv:\n“His Excellency President for Life, Field Marshal Al Hadji Doctor ______, VC, DSO, MC, CBE, Lord of all the Beasts of the Earth and Fishes of the Sea, and Conqueror of the British Empire in Africa in General and Uganda in Particular”?",
+		"option_1" : "Muammar Gaddafi",
+		"option_2" : "Idi Amin",
+		"option_3" : "Saddam Hussein",
+		"option_4" : "Robert Mugabe",
+		"correct_answer" : "Idi Amin",
+		"category" : "historie",
+		"category_2" : "politik og samfund",
+		"date_added" : "2022-07-20 15:05:31"
+	},
+	{
+		"question_ID" : 6,
+		"question_text" : "Hvad kaldes den længste side i en retvinklet trekant?",
+		"option_1" : "sekant",
+		"option_2" : "grundlinje",
+		"option_3" : "katete",
+		"option_4" : "hypotenuse",
+		"correct_answer" : "hypotenuse",
+		"category" : "matematik, fysik og kemi",
+		"category_2" : "",
+		"date_added" : "2022-07-20 15:11:51"
+	},
+	{
+		"question_ID" : 7,
+		"question_text" : "Hvad hed kong Arthurs slot?",
+		"option_1" : "Excalibur",
+		"option_2" : "Galahad",
+		"option_3" : "Kamelot",
+		"option_4" : "Avalon",
+		"correct_answer" : "Kamelot",
+		"category" : "tro og fantasi",
+		"category_2" : "",
+		"date_added" : "2022-07-20 15:17:26"
+	},
+	{
+		"question_ID" : 8,
+		"question_text" : "Hvilket af disse pattedyr har en giftklo?",
+		"option_1" : "okapi",
+		"option_2" : "jærv",
+		"option_3" : "næbdyr",
+		"option_4" : "vombat",
+		"correct_answer" : "næbdyr",
+		"category" : "levende væsener",
+		"category_2" : "",
+		"date_added" : "2022-07-20 15:34:30"
+	}
+]
