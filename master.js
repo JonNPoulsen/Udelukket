@@ -230,10 +230,12 @@ function loseLives()
 
 	if (parseInt(lives.textContent) - livesToLose <= 0) 
 	{
+		document.querySelector("#death-gong").play();
 		lives.textContent = 0;
 	}
 	else
 	{
+		document.querySelector("#lost-3-lives").play();
 		lives.textContent = parseInt(lives.textContent) - livesToLose;
 	}
 	lives.classList.remove("lives");
@@ -256,7 +258,7 @@ function loseLives()
 	{
 		setTimeout(function () {
 			gameOver();
-		}, 1000);
+		}, 3000);
 	}
 	else
 	{

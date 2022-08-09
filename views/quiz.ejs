@@ -247,6 +247,8 @@
 			</form>
 
 			<div id = "question-holder" class="d-none"><%= questionJSON %></div>
+			<audio id = "lost-3-lives" class="d-none" src="sounds/lost-3-lives.mp3"></audio>
+			<audio id = "death-gong" class="d-none" src="sounds/death-gong.mp3"></audio>
 		</div>
 	</div>
 
@@ -274,7 +276,7 @@
 		var contemplating = new Audio('sounds/contemplating.mp3');
 		contemplating.volume = 0.7;
 		contemplating.loop = true;
-		var lost3Lives = new Audio('sounds/lost-3-lives.mp3');
+
 		$(".music-button").on("click", function () {
 			if(contemplating.paused)
 			{
@@ -346,7 +348,6 @@
 			if ($("#option-1").hasClass("correct-answer")) 
 			{
 				newQuestion(usedIDs, qJSON);
-				lost3Lives.play();
 			}
 			else if ($(".visible-option").length < 2)
 			{
@@ -358,7 +359,6 @@
 			if ($("#option-2").hasClass("correct-answer")) 
 			{
 				newQuestion(usedIDs, qJSON);
-				lost3Lives.play();
 			}
 			else if ($(".visible-option").length < 2)
 			{
@@ -370,7 +370,6 @@
 			if ($("#option-3").hasClass("correct-answer")) 
 			{
 				newQuestion(usedIDs, qJSON);
-				lost3Lives.play();
 			}
 			else if ($(".visible-option").length < 2)
 			{
@@ -382,7 +381,6 @@
 			if ($("#option-4").hasClass("correct-answer")) 
 			{
 				newQuestion(usedIDs, qJSON);
-				lost3Lives.play();
 			}
 			else if ($(".visible-option").length < 2)
 			{
