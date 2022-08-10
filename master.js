@@ -170,12 +170,36 @@ function hideCategories()
 	}
 }
 
+function selectAllCategories()
+{
+	var checkboxes = document.querySelectorAll('input[name="categories"]');
+  for (var i = 0; i < checkboxes.length; i++) 
+  {
+     if (checkboxes[i].checked === false)
+     {
+        checkboxes[i].checked = true;
+     }
+  }
+}
+
 function showCategories()
 {
 	const categoryList = document.querySelector("#category-list");
 	if (categoryList.classList.contains("d-none")){
 		categoryList.classList.remove("d-none");
 	}
+}
+
+function unselectAllCategories()
+{
+	var checkboxes = document.querySelectorAll('input[name="categories"]');
+  for (var i = 0; i < checkboxes.length; i++) 
+  {
+     if (checkboxes[i].checked === true)
+     {
+        checkboxes[i].checked = false;
+     }
+  }
 }
 
 function updatePlayerSettings(players)
@@ -200,6 +224,26 @@ function updatePlayerSettings(players)
 	{
 		console.log("Invalid number of players. No changes were made.");
 	}
+}
+
+function updateRequiredStatus()
+{
+	var checkboxes = document.querySelectorAll('input[name="categories"]');
+  for (var i = 0; i < checkboxes.length; i++) 
+  {
+     if (checkboxes[i].checked === true)
+     {
+        for (var j = 0; j < checkboxes.length; j++) 
+        {
+        	checkboxes[j].required = false;
+        }
+        return;
+     }
+  }
+ 	for (var j = 0; j < checkboxes.length; j++) 
+  {
+    checkboxes[j].required = true;
+  }
 }
 
 /* GAMEPLAY FUNCTIONS */
