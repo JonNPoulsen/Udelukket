@@ -349,5 +349,44 @@
     "category_2": "",
     "createdAt": "2022-08-09T17:43:01.000Z",
     "updatedAt": "2022-08-09T15:43:01.000Z"
+  },
+  {
+    "question_ID": 77,
+    "question_text": "Hvor langt skal en triatlet svømme i en Ironman-triatlon?",
+    "option_1": "1,42 km",
+    "option_2": "2,40 km",
+    "option_3": "2,98 km",
+    "option_4": "3,86 km",
+    "correct_answer": "3,86 km",
+    "category": "sport og spil",
+    "category_2": "",
+    "createdAt": "2022-08-10T18:01:41.000Z",
+    "updatedAt": "2022-08-10T16:01:41.000Z"
+  },
+  {
+    "question_ID": 78,
+    "question_text": "Hvad kaldes det eneste skaktræk, hvor en skakbrik tager en anden skakbrik uden at rykke ind på dens felt?",
+    "option_1": "en passant",
+    "option_2": "rokade",
+    "option_3": "gambit",
+    "option_4": "siciliansk forsvar",
+    "correct_answer": "en passant",
+    "category": "sport og spil",
+    "category_2": "",
+    "createdAt": "2022-08-10T18:13:59.000Z",
+    "updatedAt": "2022-08-10T16:16:37.000Z"
+  },
+  {
+    "question_ID": 79,
+    "question_text": "Hvad hed computeren, som i 2011 besejrede menneskelige stormestre i det amerikanske quizshow \"Jeopardy!\"?",
+    "option_1": "Deep Blue",
+    "option_2": "Watson",
+    "option_3": "DALL-E",
+    "option_4": "Akinator",
+    "correct_answer": "Watson",
+    "category": "sport og spil",
+    "category_2": "teknologi og håndværk",
+    "createdAt": "2022-08-10T18:13:59.000Z",
+    "updatedAt": "2022-08-10T16:13:59.000Z"
   }
 ]
