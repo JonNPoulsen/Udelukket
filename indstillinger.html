@@ -8,7 +8,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body class="page-bg">
+<body onload="selectAllCategories()" class="page-bg">
 	<div class="text-white">
 
 		<!-- <div class="back-btn">
@@ -94,7 +94,7 @@
 					<div class="row">
 						<div class="col"></div>
 						<div class="radiobtn-in-disguise col">
-		  					<input onclick="hideCategories()" type="radio" name="category_setting" id="all-categories" value="all" checked/>
+		  					<input onclick="hideCategories(); selectAllCategories()" type="radio" name="category_setting" id="all-categories" value="all" checked/>
 		  					<label class="btn btn-outline-info btn-lg settings-btn" for="all-categories">Alle</label>
 						</div>
 						<div class="radiobtn-in-disguise col">
@@ -116,24 +116,28 @@
 								<label class="form-check-label" for="inlineCheckbox1" for="cat-1">geografi</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="historie" id="cat-2" required>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="historie" id="cat-2">
 								<label class="form-check-label" for="inlineCheckbox1" for="cat-2">historie</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="kreative værker" id="cat-3" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-3">kreative værker</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="krop og helbred" id="cat-3" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-3">krop og helbred</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="krop og helbred" id="cat-4" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-4">krop og helbred</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="levende væsener" id="cat-4" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-4">levende væsener</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="levende væsener" id="cat-5" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-5">levende væsener</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="litteratur og billedkunst" id="cat-5" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-5">litteratur og billedkunst</label>
 							</div>
 							<div class="form-check">
 								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="mad og drikke" id="cat-6" required>
 								<label class="form-check-label" for="inlineCheckbox1" for="cat-6">mad og drikke</label>
+							</div>
+							<div class="form-check">
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="matematik, fysik og kemi" id="cat-7" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-7">matematik, fysik og kemi</label>
 							</div>
 							<br>
 							<button type="button" class="btn btn-info" style="width: 100%" onclick="selectAllCategories()">Vælg alle</button>
@@ -141,28 +145,32 @@
 
 						<div class="col checkbox-list">
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="matematik, fysik og kemi" id="cat-7" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-7">matematik, fysik og kemi</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="musik og radio" id="cat-8" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-8">musik og radio</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="politik og samfund" id="cat-8" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-8">politik og samfund</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="politik og samfund" id="cat-9" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-9">politik og samfund</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="sport og spil" id="cat-9" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-9">sport og spil</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="skærm og scene" id="cat-10" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-10">skærm og scene</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="sprog" id="cat-10" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-10">sprog</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="sport og spil" id="cat-11" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-11">sport og spil</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="teknologi og håndværk" id="cat-11" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-11">teknologi og håndværk</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="sprog" id="cat-12">
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-12">sprog</label>
 							</div>
 							<div class="form-check">
-								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="tro og fantasi" id="cat-12" required>
-								<label class="form-check-label" for="inlineCheckbox1" for="cat-12">tro og fantasi</label>
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="teknologi og håndværk" id="cat-13" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-13">teknologi og håndværk</label>
+							</div>
+							<div class="form-check">
+								<input onchange="updateRequiredStatus()" class="form-check-input" type="checkbox" name="categories" value="tro og fantasi" id="cat-14" required>
+								<label class="form-check-label" for="inlineCheckbox1" for="cat-14">tro og fantasi</label>
 							</div>
 							<br>
 							<button type="button" class="btn btn-info" style="width: 100%" onclick="unselectAllCategories()">Fjern alle</button>

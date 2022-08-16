@@ -33,10 +33,10 @@
     "option_3": "Spids Nøgenhat",
     "option_4": "Nephew",
     "correct_answer": "Nephew",
-    "category": "kreative værker",
+    "category": "musik og radio",
     "category_2": "",
     "createdAt": "2022-08-09T17:43:01.000Z",
-    "updatedAt": "2022-08-09T15:43:01.000Z"
+    "updatedAt": "2022-08-16T10:27:56.000Z"
   },
   {
     "question_ID": 51,
@@ -72,10 +72,10 @@
     "option_3": "rokushiki",
     "option_4": "kagemane no jutsu",
     "correct_answer": "kamehameha",
-    "category": "kreative værker",
+    "category": "litteratur og billedkunst",
     "category_2": "",
     "createdAt": "2022-08-09T17:43:01.000Z",
-    "updatedAt": "2022-08-09T15:43:01.000Z"
+    "updatedAt": "2022-08-16T10:27:56.000Z"
   },
   {
     "question_ID": 54,
@@ -345,10 +345,10 @@
     "option_3": "Lord Siva",
     "option_4": "Rasmus Seebach",
     "correct_answer": "Andreas Odbjerg",
-    "category": "kreative værker",
+    "category": "musik og radio",
     "category_2": "",
     "createdAt": "2022-08-09T17:43:01.000Z",
-    "updatedAt": "2022-08-09T15:43:01.000Z"
+    "updatedAt": "2022-08-16T10:27:56.000Z"
   },
   {
     "question_ID": 77,
@@ -388,5 +388,31 @@
     "category_2": "teknologi og håndværk",
     "createdAt": "2022-08-10T18:13:59.000Z",
     "updatedAt": "2022-08-10T16:13:59.000Z"
+  },
+  {
+    "question_ID": 80,
+    "question_text": "Hvem spillede den kvindelige hovedrolle i filmen \"Titanic\" fra 1997?",
+    "option_1": "Kate Winslet",
+    "option_2": "Eva Green",
+    "option_3": "Julia Roberts",
+    "option_4": "Drew Barrymore",
+    "correct_answer": "Kate Winslet",
+    "category": "skærm og scene",
+    "category_2": "",
+    "createdAt": "2022-08-16T12:45:57.000Z",
+    "updatedAt": "2022-08-16T10:45:57.000Z"
+  },
+  {
+    "question_ID": 81,
+    "question_text": "Hvilken af disse karakterer er stadig i live ved slutningen af Stephen Sondheims musical \"Sweeney Todd: The Demon Barber of Fleet Street\"?",
+    "option_1": "Sweeney Todd",
+    "option_2": "Nellie Lovett",
+    "option_3": "Lucy Barker",
+    "option_4": "Tobias Ragg",
+    "correct_answer": "Tobias Ragg",
+    "category": "skærm og scene",
+    "category_2": "",
+    "createdAt": "2022-08-16T12:52:21.000Z",
+    "updatedAt": "2022-08-16T10:52:21.000Z"
   }
 ]
