@@ -345,44 +345,28 @@
 		newQuestion(usedIDs, qJSON);
 
 		$("#option-1").on("click", function () {
-			if ($("#option-1").hasClass("correct-answer")) 
-			{
-				newQuestion(usedIDs, qJSON);
-			}
-			else if ($(".visible-option").length < 2)
+			if ($("#option-1").hasClass("correct-answer") || $(".visible-option").length < 2) 
 			{
 				newQuestion(usedIDs, qJSON);
 			}
 		})
 
 		$("#option-2").on("click", function () {
-			if ($("#option-2").hasClass("correct-answer")) 
-			{
-				newQuestion(usedIDs, qJSON);
-			}
-			else if ($(".visible-option").length < 2)
+			if ($("#option-2").hasClass("correct-answer") || $(".visible-option").length < 2) 
 			{
 				newQuestion(usedIDs, qJSON);
 			}
 		})
 
 		$("#option-3").on("click", function () {
-			if ($("#option-3").hasClass("correct-answer")) 
-			{
-				newQuestion(usedIDs, qJSON);
-			}
-			else if ($(".visible-option").length < 2)
+			if ($("#option-3").hasClass("correct-answer") || $(".visible-option").length < 2) 
 			{
 				newQuestion(usedIDs, qJSON);
 			}
 		})
 
 		$("#option-4").on("click", function () {
-			if ($("#option-4").hasClass("correct-answer")) 
-			{
-				newQuestion(usedIDs, qJSON);
-			}
-			else if ($(".visible-option").length < 2)
+			if ($("#option-4").hasClass("correct-answer") || $(".visible-option").length < 2) 
 			{
 				newQuestion(usedIDs, qJSON);
 			}

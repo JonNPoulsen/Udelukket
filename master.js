@@ -251,6 +251,7 @@ function updateRequiredStatus()
 function evaluateAnswer(answerID)
 {
 	var chosenAnswer = document.querySelector("#" + answerID);
+	chosenAnswer.blur();
 	if (chosenAnswer.classList.contains("correct-answer")) 
 	{
 		loseLives();
@@ -274,6 +275,8 @@ function loseLives()
 
 	if (parseInt(lives.textContent) - livesToLose <= 0) 
 	{
+		document.querySelector("#question-text").classList.add("invisible");
+		document.querySelector("#options").classList.add("invisible-option");
 		document.querySelector("#death-gong").play();
 		lives.textContent = 0;
 	}
@@ -346,10 +349,8 @@ function moveOptions(playerNumber)
 
 	if (document.querySelector("#player-4")) //4 spillere
 	{
-
 		document.querySelector("#options").classList.remove("option-frame-" + playerNumber + "-of-4");
 		document.querySelector("#options").classList.add("option-frame-" + (playerNumber < 4 ? playerNumber + 1 : 1) + "-of-4");
-
 	}
 	else if (document.querySelector("#player-3")) //3 spillere
 	{
@@ -358,10 +359,8 @@ function moveOptions(playerNumber)
 	}
 	else //2 spillere
 	{
-
 		document.querySelector("#options").classList.remove("option-frame-" + playerNumber + "-of-2");
 		document.querySelector("#options").classList.add("option-frame-" + (playerNumber < 2 ? playerNumber + 1 : 1) + "-of-2");
-
 	}
 
 }
@@ -402,11 +401,6 @@ function removeOption(answerID)
 
 	chosenAnswer.classList.remove("visible-option");
 	chosenAnswer.classList.add("invisible-option");
-
-	// if (document.querySelectorAll(".visible-option").length < 2) 
-	// {
-	// 	console.log("Time for another question!"); //HER SKAL TILFØJES EN FUNKTION newQuestion();
-	// }
 
 	moveOptions( parseInt(currentPlayer.id.slice(-1)) );
 	nextPlayersTurn( parseInt(currentPlayer.id.slice(-1)) );
