@@ -3,5 +3,6 @@ module.exports = {
 	USER: 'root',
 	PASSWORD: 'Qcumber',
 	DATABASE: 'udelukket',
-    DIALECT: 'mysql'
+    DIALECT: 'mysql',
+    use_env_variable: 'DATABASE_URL',
 }

@@ -2,15 +2,25 @@
 
 const Sequelize = require('sequelize'); 
 
-const sequelize = new Sequelize( //https://www.digitalocean.com/community/tutorials/how-to-use-sequelize-with-node-js-and-mysql
-        'udelukket', //database
-        'root', //Jon?
-        'Qcumber',
-        {
-          host: 'localhost',
-          dialect: 'mysql'
-        }
-    );
+// const sequelize = new Sequelize( //https://www.digitalocean.com/community/tutorials/how-to-use-sequelize-with-node-js-and-mysql
+//         'udelukket', //database
+//         'root', //Jon?
+//         'Qcumber',
+//         {
+//           host: 'localhost',
+//           dialect: 'mysql'
+//         }
+//     );
+
+sequelize = new Sequelize(process.env.DATABASE_URL, {
+    dialectOptions: {
+      ssl: {
+        require: true,
+        rejectUnauthorized: false
+      }
+    }
+  }
+);
 
 sequelize.authenticate().then(() => {
    console.log('Connection has been established successfully.');
