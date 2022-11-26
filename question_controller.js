@@ -1,4 +1,4 @@
-//måske bør denne fil slettes - opgaverne er uddelegeret til master.js
+//måske bør denne fil slettes - opgaverne er uddelegeret til index.js
 
 const Sequelize = require('sequelize'); 
 
