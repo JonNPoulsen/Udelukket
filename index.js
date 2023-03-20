@@ -76,7 +76,7 @@ app.get('/quiz', (req, res) => {
 })
 
 app.get('/game-over', (req, res) => {
-  res.sendfile(__dirname + "/game-over.html");
+  res.sendFile(__dirname + "/game-over.html");
 })
 
 /*----- POST METHODS -----*/
@@ -109,8 +109,8 @@ app.post('/quiz', (req, res) => {
 		}
 	}
 
-	let rawdata = fs.readFileSync('qtest.json');
-	let processedData = JSON.parse(rawdata);
+	let rawData = fs.readFileSync('qtest.json');
+	let processedData = JSON.parse(rawData);
 	let questionJSON = JSON.stringify(processedData);
 
 	res.render("quiz", {

@@ -309,7 +309,7 @@
 
 			//vælg om, indtil der vælges et ubrugt id
 			while (idSet.has(id)) {
-				id = Math.floor(Math.random() * questions.length);
+				id = (id + 1) % questions.length;
 			}
 
 			/*tøm listen med brugte id'er, hvis der snart ikke
